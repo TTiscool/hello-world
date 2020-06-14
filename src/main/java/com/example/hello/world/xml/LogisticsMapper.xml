@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.hello.world.dao.LogisticsMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.hello.world.model.Logistics">
+        <id column="id" property="id" />
+        <result column="ecode" property="ecode" />
+        <result column="ename" property="ename" />
+        <result column="short_name" property="shortName" />
+        <result column="logistics_type" property="logisticsType" />
+        <result column="mailno_regular" property="mailnoRegular" />
+        <result column="account_no" property="accountNo" />
+        <result column="password" property="password" />
+        <result column="pay_type" property="payType" />
+        <result column="express_type" property="expressType" />
+        <result column="monthly_card_no" property="monthlyCardNo" />
+        <result column="weight_type" property="weightType" />
+        <result column="send_city_code" property="sendCityCode" />
+        <result column="url" property="url" />
+        <result column="cainiao_url" property="cainiaoUrl" />
+        <result column="ad_org_id" property="adOrgId" />
+        <result column="isactive" property="isactive" />
+        <result column="ad_client_id" property="adClientId" />
+        <result column="ownerid" property="ownerid" />
+        <result column="ownerename" property="ownerename" />
+        <result column="ownername" property="ownername" />
+        <result column="creationdate" property="creationdate" />
+        <result column="modifierid" property="modifierid" />
+        <result column="modifierename" property="modifierename" />
+        <result column="modifiername" property="modifiername" />
+        <result column="modifieddate" property="modifieddate" />
+    </resultMap>
+
+</mapper>
